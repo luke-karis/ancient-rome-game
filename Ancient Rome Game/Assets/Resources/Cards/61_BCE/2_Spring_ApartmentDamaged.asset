@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 2_Spring_ApartmentDamaged
+  m_EditorClassIdentifier: 
+  cardText: 'The apartment building you bought from Crassus is infested with mice
+    and in poor shape '
+  cardArtEvent: {fileID: 21300000, guid: d81308d5728179a42b675cb44323712c, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CTwo of my buildings have fallen down, and the rest have
+    large cracks. Not only the tenants, but even the mice have moved out! (Cicero
+    Att. 14.9)"
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from one of Cicero\u2019s letters
+    to his friend Atticus."
+  primarySourceContext: Owning and renting apartment buildings was a good source of
+    income for rich Romans and they often did not put very much money into maintaining
+    these buildings.
+  Advice: It is wise to be frugal with your investments
+  RightOption: Do nothing and hop that not too many people will move out
+  cardArtRight: {fileID: 21300000, guid: 61492f499cfd91540a3666d91d624799, type: 3}
+  moneyBarRight: -5
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/61_BCE/3___Spring_IE_2R
+  changeSeasonR: 0
+  LeftOption: Spend money to fix your apartment building
+  cardArtLeft: {fileID: 21300000, guid: f0d26f7f86232f848b897029808c4392, type: 3}
+  moneyBarLeft: -10
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/61_BCE/3___Spring_IE_2L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

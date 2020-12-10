@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 4_Summer_CrassusApartment
+  m_EditorClassIdentifier: 
+  cardText: Crassus approaches you and asks if you would like to buy one of his apartment
+    buildings as an investment opportunity
+  cardArtEvent: {fileID: 21300000, guid: f0d26f7f86232f848b897029808c4392, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CFor when Sulla took the city and sold the property of
+    those whom he had put to death...Crassus was never tired of accepting or of buying
+    it\u201D (Plutarch, Crassus 2.3)."
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Marcus Licinius Crassus.
+  primarySourceContext: 'Sulla was a Roman general and politician who marched on Rome
+    and was declared dictator. Crassus took advantage of this political strife by
+    buying the property of those who had been exiled or killed by Sulla. '
+  Advice: This could be a good way to increase your income
+  RightOption: ell him you would be happy to buy it at the price he offered
+  cardArtRight: {fileID: 21300000, guid: ded887c0dffba2c4a9393bf3b1657606, type: 3}
+  moneyBarRight: -10
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/62_BCE/5___Summer_IE_4R
+  changeSeasonR: 0
+  LeftOption: 'Tell him you are interested but want to discuss the price '
+  cardArtLeft: {fileID: 21300000, guid: f0d26f7f86232f848b897029808c4392, type: 3}
+  moneyBarLeft: -15
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/62_BCE/5___Summer_IE_4L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

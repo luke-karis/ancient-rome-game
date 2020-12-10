@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 7_Fall_CatilineLeaves
+  m_EditorClassIdentifier: 
+  cardText: Catiline flees Rome and goes to Etruria where it is rumored he has raised
+    an army of veterans and plans to overthrow the government
+  cardArtEvent: {fileID: 21300000, guid: aee7ab098d7226d4d963cf48df8d9915, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CCatiline\u2019s soldiers in Etruria were already assembling
+    and forming into companies\u201D (Plutarch, Cicero XV.1)."
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Marcus Tullius Cicero.
+  primarySourceContext: "Our ancient sources tell us that many of Catiline\u2019s
+    forces were former soldiers of Sulla. Sulla was a Roman politician and general
+    who marched his army on Rome initializing a period of civil strife. "
+  Advice: Sometimes the simplest choice is the best one
+  RightOption: 'Go to Cicero and demand that Catiline is brought to justice  '
+  cardArtRight: {fileID: 21300000, guid: 590c5c2e5f7cdd248959720be70b5932, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 2
+  rNextPath: Cards/63_BCE/8___Fall_IE_7R
+  changeSeasonR: 0
+  LeftOption: Travel to Etruria to see Catiline
+  cardArtLeft: {fileID: 21300000, guid: ebf59541a3c0b37409dd0b52fbda60f9, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 1
+  patricPopularityLeft: 0
+  lNextPath: Cards/63_BCE/8___Fall_IE_7L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

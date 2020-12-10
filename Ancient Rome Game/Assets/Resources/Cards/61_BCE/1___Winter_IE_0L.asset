@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 1___Winter_IE_0L
+  m_EditorClassIdentifier: 
+  cardText: Clodius glowers at you and his supporters boo you as you finish your testimony
+  cardArtEvent: {fileID: 21300000, guid: 4cfd6891d410b274c8a4aef698508d3f, type: 3}
+  cardArtAdvisor: {fileID: 0}
+  primarySourceEvent: 
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: 
+  cardArtRight: {fileID: 0}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/61_BCE/2.1___Winter_IE_1
+  changeSeasonR: 0
+  LeftOption: 
+  cardArtLeft: {fileID: 0}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/61_BCE/2.1___Winter_IE_1
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 1

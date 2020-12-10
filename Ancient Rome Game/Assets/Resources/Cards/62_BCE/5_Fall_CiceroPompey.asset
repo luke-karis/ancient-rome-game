@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 5_Fall_CiceroPompey
+  m_EditorClassIdentifier: 
+  cardText: 'Cicero comes to talk to you and stresses the importance of getting Pompey
+    on his side so that there can be peace in the Republic '
+  cardArtEvent: {fileID: 21300000, guid: d2b191df5ea99db47a9195825e1010ca, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CI am defending as best I can the alliance I myself cemented.
+    But as this is all so unreliable, I am building another road, a safe one I hope,
+    to protect my position. I can\u2019t very well explain what I mean in a letter,
+    but a small hint will show: I am on the friendliest terms with Pompey\u201D (Cicero,
+    Att. 1.17.10)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from one of Cicero\u2019s letters
+    to his friend Atticus."
+  primarySourceContext: 'Cicero is clearly alluding to the possibility of an alliance
+    with Pompey in this quote. Political alliances could be very powerful in the late
+    republic especially if influential politicians joined forces. '
+  Advice: "Cicero\u2019s intentions are good but I wonder if he is being too high
+    minded"
+  RightOption: "Agree with him and say you\u2019ll do your best"
+  cardArtRight: {fileID: 21300000, guid: d90be85975543d34ead6dce07bf1f95a, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 3
+  rNextPath: Cards/62_BCE/6___Fall_IE_5R
+  changeSeasonR: 0
+  LeftOption: Disagree with him and say Pompey is too dangerous
+  cardArtLeft: {fileID: 21300000, guid: b78e8525e6a450648ac4e3f8495d44be, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: -4
+  lNextPath: Cards/62_BCE/6___Fall_IE_5L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

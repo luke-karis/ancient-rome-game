@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 4_Summer_PompeyTriumph
+  m_EditorClassIdentifier: 
+  cardText: Pompey hosts a large triumph to celebrate his great military victory
+  cardArtEvent: {fileID: 21300000, guid: 56b03d5ca75568b469e403f9c155b5b0, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CHis triumph had such a magnitude that although it was
+    distributed over two days, still the time would not suffice, but much of what
+    had been prepared could not find a place in the spectacle\u201D (Plutarch, Pompey
+    45.1). "
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Gnaeus Pompeius Magnus
+    also known as Pompey or Pompey the Great.
+  primarySourceContext: 'A triumph was a military procession led by a successful Roman
+    general when they returned to Rome. It  was the one of the highest ambitions of
+    Roman politicians and the decision whether or not a general received one rested
+    in the Senate. '
+  Advice: It might be best not to antagonize Pompey over something that he has rightfully
+    earned
+  RightOption: Decry the triumph as blatant populism
+  cardArtRight: {fileID: 21300000, guid: 113cc1da6a59cf4429db364b305d4693, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: -3
+  patricPopularityRight: 1
+  rNextPath: Cards/61_BCE/5___Summer_IE_4R
+  changeSeasonR: 0
+  LeftOption: Congratulate pompey on his great military success
+  cardArtLeft: {fileID: 21300000, guid: bcd03e5c270062f4c98fb7e60a3876b3, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 2
+  patricPopularityLeft: 0
+  lNextPath: Cards/61_BCE/5___Summer_IE_4L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 0_Winter_SR_LandBill
+  m_EditorClassIdentifier: 
+  cardText: A tribune named Servilius Rullus introduces a bill to distribute land
+    in provinces to Roman colonists to relieve economic pressures
+  cardArtEvent: {fileID: 21300000, guid: 8c95bdfbe2ce6184cbcc9a222df93896, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CHe is selling all the public property in Italy item by
+    item. No doubt he is busy about that, for he does not let a single item pass.
+    He searches through the whole of Sicily in the censors\u2019 registers; he leaves
+    no building, no lands unnoticed\u201D (Cicero, De Lege Agraria 1.2)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from Cicero\u2019s speech opposing
+    the land bill of Servilius Rullus."
+  primarySourceContext: Some scholars believe that Rullus put forth this bill for
+    the powerful politician Marcus Licinius Crassus who was a rival of Pompey. It
+    is thought that this bill could be used to bargain with Pompey who was returning
+    to Rome from a military conquest and would undoubtedly like to find land for his
+    veterans.
+  Advice: Supporting this type of bill will almost certainly increase your standing
+    among the populares.
+  RightOption: Oppose Cicero by supporting the bill in the senate
+  cardArtRight: {fileID: 21300000, guid: 03776589c25bd9540b5ff80fd72198d2, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 3
+  patricPopularityRight: -3
+  rNextPath: Cards/63_BCE/1___Winter_IE_0R
+  changeSeasonR: 0
+  LeftOption: Support Cicero and his argument that there are unseen forces in play
+    here and this bill is not just about land
+  cardArtLeft: {fileID: 21300000, guid: 3b1a59d7697c85b45bec07a2c1182007, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -5
+  patricPopularityLeft: 1
+  lNextPath: Cards/63_BCE/1___Winter_IE_0L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

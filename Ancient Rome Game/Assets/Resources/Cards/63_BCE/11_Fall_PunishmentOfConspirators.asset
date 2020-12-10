@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 11_Fall_PunishmentOfConspirators
+  m_EditorClassIdentifier: 
+  cardText: The senate debates what the punishment for the remaining conspirators
+    should be
+  cardArtEvent: {fileID: 21300000, guid: 2ef7961cbec0fc24794dc31ddab55d7a, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201COn the following day the senate discussed the punishment
+    of the conspirators, and Silanus, who was the first to be asked to give his opinion,
+    said they ought to be taken to prison and there suffer extremest punishment\u201D
+    (Plutarch, Cicero XX.3)."
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Marcus Tullius Cicero.
+  primarySourceContext: The Romans did not have state operated prisons so this notion
+    of taking the conspirators to prison was more likely to involve putting these
+    conspirators under house arrest.
+  Advice: Now is a good time to further distance yourself from Catiline and build
+    new alliances
+  RightOption: "Support Cicero\u2019s idea of quickly executing the conspirators "
+  cardArtRight: {fileID: 21300000, guid: 82381e3129db13c43adea7763c67b45e, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 3
+  rNextPath: Cards/63_BCE/12___Fall_IE_11R
+  changeSeasonR: 0
+  LeftOption: "Support Caesar\u2019s idea of imprisoning the conspirators for life "
+  cardArtLeft: {fileID: 21300000, guid: 590c5c2e5f7cdd248959720be70b5932, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 3
+  patricPopularityLeft: 0
+  lNextPath: Cards/63_BCE/12___Fall_IE_11L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

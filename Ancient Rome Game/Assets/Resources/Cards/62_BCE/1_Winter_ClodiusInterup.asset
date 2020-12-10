@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 1_Winter_ClodiusInterup
+  m_EditorClassIdentifier: 
+  cardText: A young patrician named P. Clodius has broken in upon the worship of a
+    goddess whose rites are forbidden to men
+  cardArtEvent: {fileID: 21300000, guid: a45e2a39d820b5049b46e68794f13f15, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CPompeia was celebrating this festival, and Clodius, who
+    was still beardless and on this account thought to pass unnoticed, assumed the
+    dress and implements of a lute-girl and went into the house\u201D (Plutarch, Caesar
+    10.1)."
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Gaius Julius Caesar.
+  primarySourceContext: The festival that was being celebrated by these women was
+    for the Roman goddess called Bona Dea and thus this scandal is called the Bona
+    Dea Scandal.
+  Advice: The patricians generally like to protect their own but Clodius is not very
+    popular with members of his class
+  RightOption: Write to Clodius offering your support
+  cardArtRight: {fileID: 21300000, guid: b15ba8abea6cb964b8da466c3b63b38e, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 3
+  patricPopularityRight: 0
+  rNextPath: Cards/62_BCE/2___Winter_IE_1R
+  changeSeasonR: 0
+  LeftOption: Attend a contio, an open meeting, and denounce him as being sacrilegious
+  cardArtLeft: {fileID: 21300000, guid: 986593893c0ddc14a984616521ff5d15, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -5
+  patricPopularityLeft: 0
+  lNextPath: Cards/62_BCE/2___Winter_IE_1L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

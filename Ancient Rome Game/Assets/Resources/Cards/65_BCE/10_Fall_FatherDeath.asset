@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 10_Fall_FatherDeath
+  m_EditorClassIdentifier: 
+  cardText: Your father has suddenly died despite being relatively healthy.
+  cardArtEvent: {fileID: 21300000, guid: 21c783bf949630f4097d478a4c3fdee8, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CI am writing to you in great distress. The younger daughter
+    of your friend Fundanus is dead, and I never saw a girl of brighter and more lovable
+    nature, nor one who better deserved to grow old or even to live forever.\u201D
+    (Pliny the Younger, Letters 5.16.1-7)."
+  primarySourceAuthor: Pliny the Younger was a lawyer, author, and magistrate who
+    lived in the Roman Empire. Pliny the Younger wrote many letters and in this one
+    he writes of his distress that a girl named Mincicia Marcella has suddenly died.
+  primarySourceContext: 'It was common for Romans to die young, especially of disease.
+    Young children were especially susceptible and for this reason Rome, like much
+    of the ancient world had a high infant mortality rate.  '
+  Advice: It is important for you to honor your father and your family during this
+    time
+  RightOption: Host gladiatorial games in honor of your father
+  cardArtRight: {fileID: 21300000, guid: b1c30d767f4a4d640ab06d18c6f204e4, type: 3}
+  moneyBarRight: -15
+  plebPopularityRight: 5
+  patricPopularityRight: 0
+  rNextPath: Cards/65_BCE/11___Fall_IE_10R
+  changeSeasonR: 0
+  LeftOption: Give a speech in honor of your father
+  cardArtLeft: {fileID: 21300000, guid: 7dca22a81936c0b47a93444e51b96702, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 2
+  lNextPath: Cards/65_BCE/11___Fall_IE_10L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

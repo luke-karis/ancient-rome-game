@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: End_Card
+  m_EditorClassIdentifier: 
+  cardText: Congradulations! You have reached the end of the game, continue to learn
+    more
+  cardArtEvent: {fileID: 21300000, guid: 451fb5e0e2e950142b39a95442e0f542, type: 3}
+  cardArtAdvisor: {fileID: 0}
+  primarySourceEvent: 
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: 
+  cardArtRight: {fileID: 0}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/IE_EventReview
+  changeSeasonR: 0
+  LeftOption: 
+  cardArtLeft: {fileID: 0}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/IE_EventReview
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 1

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 11_Fall_FatherWill
+  m_EditorClassIdentifier: 
+  cardText: 'Your father has left you all his possessions in his will, including the
+    family plantation. '
+  cardArtEvent: {fileID: 21300000, guid: e8be3d1df12de494b85b64915be42388, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CBy the Law of the Twelve Tables, the inheritance of those
+    who die intestate fall first to their sui heredes. By sui heredes are meant descendants
+    who are in the dying man\u2019s potestas, for example, a son or daughter, grandson
+    or granddaughter through a son, (or) a great-grandson or great-granddaughter through
+    a grandson born of a son\u201D (Guis, Institutes 3.1-2)."
+  primarySourceAuthor: 'Gaius was a Roman jurist who lived during the Roman empire.
+    This quote comes from the Institutes, a Roman introductory textbook of legal institutions. '
+  primarySourceContext: 'Inheritance was very important to the Romans and the Romans
+    often practiced adoption to make sure that they would have someone to inherit
+    their wealth and property when they died. However, given child and infant mortality
+    the Romans would generally only adopt adults. '
+  Advice: I would advise you to trust only in yourself if you want to be successful.
+  RightOption: Go visit the plantation to make sure it is being run well.
+  cardArtRight: {fileID: 21300000, guid: 0eb05d86a441a434c9dd7321e311d72b, type: 3}
+  moneyBarRight: 5
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/65_BCE/12___Fall_IE_11R
+  changeSeasonR: 0
+  LeftOption: Pay your freedman to go visit the plantation and put things in order
+  cardArtLeft: {fileID: 21300000, guid: 96ef91dbd01a1564f99e8837bc312928, type: 3}
+  moneyBarLeft: -5
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/65_BCE/12___Fall_IE_11L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

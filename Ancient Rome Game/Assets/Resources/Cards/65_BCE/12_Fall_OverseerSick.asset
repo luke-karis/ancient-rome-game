@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 12_Fall_OverseerSick
+  m_EditorClassIdentifier: 
+  cardText: 'Your slave overseer has fallen ill from a disease and you must pick another
+    one '
+  cardArtEvent: {fileID: 21300000, guid: 1f09efaf4e3ec1e41981670764ede38d, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CSome slave owners exposed their sick slaves in a languishing
+    condition on the island of Aesculapius, due to the tediousness of their cure\u201D
+    (Suetonius, Lives of the Caesars: Claudius 25.2)."
+  primarySourceAuthor: 'Suetonius was a Roman historian who wrote during the early
+    imperial era of Rome. His most important work involves writing about the early
+    leaders of the Roman empire. In Lives of the Caesars: Claudius, he writes about
+    the life of the emperor Claudius.'
+  primarySourceContext: Disease was a leading cause for death in Rome and could spread
+    quickly in areas where humans were living in close proximity like a City or slaves
+    on a plantation.
+  Advice: I would suggest picking an intelligent overseer that you trust to be able
+    to handle the manually difficult life on a farm
+  RightOption: 'Pick a slave that has previously worked various jobs in the city '
+  cardArtRight: {fileID: 21300000, guid: a0d51e22fc300c64791d98961ebcdbe2, type: 3}
+  moneyBarRight: -5
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/65_BCE/13___Fall_IE_12R
+  changeSeasonR: 0
+  LeftOption: 'Pick a slave who has grown up on the farm and has worked there all
+    his life '
+  cardArtLeft: {fileID: 21300000, guid: 8c95bdfbe2ce6184cbcc9a222df93896, type: 3}
+  moneyBarLeft: 5
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/65_BCE/13___Fall_IE_12L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

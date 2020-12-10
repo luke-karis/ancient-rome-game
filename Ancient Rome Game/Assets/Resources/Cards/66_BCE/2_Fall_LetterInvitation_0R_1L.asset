@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 2_Fall_LetterInvitation_0R_1L
+  m_EditorClassIdentifier: 
+  cardText: You receive a letter from P. Autronius Paetus thanking you for your support
+    and inviting you to a dinner party.
+  cardArtEvent: {fileID: 21300000, guid: 64454c86fbce6164eba9837cebb89dda, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CYou will dine well, Julius Cerialis, at my house. If
+    you have no better invitation, come on over\u201D (Martial, Epigrams 11.52). "
+  primarySourceAuthor: 'Martial was a Roman poet and satirist who lived during the
+    Roman Empire. He wrote this quote describing a dinner invitation in his Epigrams. '
+  primarySourceContext: "Martial\u2019s Epigrams often followed a similar format to
+    what is depicted here. Martial used his Epigrams to depict and satire life in
+    Rome."
+  Advice: Think carefully about who you become friends with so early in your political
+    career
+  RightOption: Accept the invitation
+  cardArtRight: {fileID: 21300000, guid: 5fbed8cfac7cca0449c1a2cfb45c1340, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 3
+  patricPopularityRight: -1
+  rNextPath: Cards/66_BCE/3_Fall_DinnerParty_2R
+  changeSeasonR: 0
+  LeftOption: Decline the Invitation
+  cardArtLeft: {fileID: 21300000, guid: 19f907ce18887d848b8c5b5876cae9e0, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -1
+  patricPopularityLeft: 3
+  lNextPath: Cards/65_BCE/0_Winter_PlotFails
+  changeSeasonL: 1
+  endOfYear: 0
+  isInformation: 0

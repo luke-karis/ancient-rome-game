@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q4_Summer_HearCiceroElected
+  m_EditorClassIdentifier: 
+  cardText: You receive word that Cicero and Antonius have been elected as consuls
+    and that Catiline came in third in the polls
+  cardArtEvent: {fileID: 21300000, guid: ff986c355ac864c4aa4943f969b29748, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CAccordingly, when the elections had been held Marcus
+    Tullius and Gaius Antonius were proclaimed consuls, and this at first filled the
+    conspirators with consternation\u201D (Sallust, War with Catiline, 18.3)."
+  primarySourceAuthor: Sallust was a Roman politician and historian from the late
+    Roman Republic. Sallust wrote this quote as part of his first work called War
+    with Catiline.
+  primarySourceContext: 'The Romans elected two consuls so that each person could
+    check the power of the other. '
+  Advice: Be wary of Catalina, I have heard that he thinks that he deserves the consulship
+  RightOption: 'Write to Catiline offering consolation for his loss '
+  cardArtRight: {fileID: 21300000, guid: 174491158638cbf4c98f11b5a8c47fb4, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 2
+  patricPopularityRight: -6
+  rNextPath: Cards/64_BCE_Quaestorship/Q5___IE_4R
+  changeSeasonR: 0
+  LeftOption: Write to Cicero congratulating him on his grand victory
+  cardArtLeft: {fileID: 21300000, guid: c2c67de45e51e1b4886d62cd6f6fc99c, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -6
+  patricPopularityLeft: 3
+  lNextPath: Cards/64_BCE_Quaestorship/Q5___IE_4L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

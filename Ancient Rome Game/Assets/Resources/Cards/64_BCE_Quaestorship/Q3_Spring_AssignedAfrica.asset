@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q3_Spring_AssignedAfrica
+  m_EditorClassIdentifier: 
+  cardText: As quaestor you are assigned to the province of Africa to assist the governor
+    with financial matters
+  cardArtEvent: {fileID: 21300000, guid: 05511b38057f5ed4db5d692cea97e609, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201C[Cicero] was appointed quaestor at a time when grain
+    was scarce, and had the province of Sicily allotted to him, where he annoyed people
+    at first by compelling them to send grain to Rome\u201D (Plutarch, Cicero 5.6)."
+  primarySourceAuthor: Plutarch was a Greek biographer and essayist who lived during  the
+    early Roman Empire. This quote comes from his biography of Marcus Tullius Cicero.
+  primarySourceContext: Quaestors stationed abroad in Roman provinces would serve
+    under a pro Consul or pro Praetor who would be the Roman in charge of the territory.
+    These pro Consuls and pro Praetors were Roman politicians who had already held
+    either the office of Consul or Praetor.
+  Advice: When it comes to spending I always advise frugality and careful thought
+  RightOption: Bring a large amount of luxury goods to display your great wealth
+  cardArtRight: {fileID: 21300000, guid: 19dd2387c0dce3745b3093902335387e, type: 3}
+  moneyBarRight: -10
+  plebPopularityRight: 0
+  patricPopularityRight: 3
+  rNextPath: Cards/64_BCE_Quaestorship/Q4___IE_3R
+  changeSeasonR: 0
+  LeftOption: Bring sparse luxury goods to save money
+  cardArtLeft: {fileID: 21300000, guid: ce93112cf4cd8dd439b8f3cc6b79ab3e, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: -5
+  lNextPath: Cards/64_BCE_Quaestorship/Q4___IE_3L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

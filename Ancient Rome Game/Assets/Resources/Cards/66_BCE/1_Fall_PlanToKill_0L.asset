@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 1_Fall_PlanToKill_0L
+  m_EditorClassIdentifier: 
+  cardText: The two disgraced senators plan to overthrow the government by killing
+    the two new Consuls
+  cardArtEvent: {fileID: 21300000, guid: 82381e3129db13c43adea7763c67b45e, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "Sallust writes that \u201Cknowledge of this plot leaked\u201D
+    and that for this reason the conspirators \u201Chad postponed their murderous
+    design until the fifth of February\u201D (Sallust, War with Catiline, 18.6)."
+  primarySourceAuthor: 'Gaius Sallustius Crispus (Anglicized to Sallust) was a Roman
+    politician and historian from the late Roman Republic. He wrote this quote as
+    part of his first work, War with Catiline. '
+  primarySourceContext: The consuls were the chief executives of the Roman state.
+    This plan was quite a desperate one which would almost certainly not have worked.
+  Advice: Plots against other Romans are serious and should not be taken lightly.
+  RightOption: Bring the matter to your father who is a senator
+  cardArtRight: {fileID: 21300000, guid: a7ef1b90eeac36d41a26f8acca8dbdfb, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 4
+  rNextPath: Cards/66_BCE/2___Fall_IE_1R
+  changeSeasonR: 0
+  LeftOption: Reach out to them asking if you can get involved in the plot
+  cardArtLeft: {fileID: 21300000, guid: fc3e86b40dcbdd446963bc73e2387103, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 4
+  patricPopularityLeft: 0
+  lNextPath: Cards/66_BCE/2_Fall_LetterInvitation_0R_1L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 6_IE_Optimates
+  m_EditorClassIdentifier: 
+  cardText: The optimates are a group of elite Romans who believe that power should
+    rest with the Roman senate.
+  cardArtEvent: {fileID: 21300000, guid: fdda307af7e4ea94a820e360dfccc656, type: 3}
+  cardArtAdvisor: {fileID: 0}
+  primarySourceEvent: 
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: 
+  cardArtRight: {fileID: 0}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/Tutorial/7_IE_PopBar
+  changeSeasonR: 0
+  LeftOption: 
+  cardArtLeft: {fileID: 0}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/Tutorial/7_IE_PopBar
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 1

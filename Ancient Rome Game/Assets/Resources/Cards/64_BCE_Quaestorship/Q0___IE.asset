@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q0___IE
+  m_EditorClassIdentifier: 
+  cardText: You begin serving as a Quaestor. These magistrates were in charge of money
+    and often sent to provinces
+  cardArtEvent: {fileID: 21300000, guid: ad65cd24957659d4387ddd5a6a782ff5, type: 3}
+  cardArtAdvisor: {fileID: 0}
+  primarySourceEvent: 
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: 
+  cardArtRight: {fileID: 0}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/64_BCE_Quaestorship/Q1_Winter_CatilineFirstElection
+  changeSeasonR: 0
+  LeftOption: 
+  cardArtLeft: {fileID: 0}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/64_BCE_Quaestorship/Q1_Winter_CatilineFirstElection
+  changeSeasonL: 0
+  endOfYear: 1
+  isInformation: 1

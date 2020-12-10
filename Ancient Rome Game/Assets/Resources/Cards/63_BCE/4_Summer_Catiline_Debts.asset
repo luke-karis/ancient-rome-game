@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 4_Summer_Catiline_Debts
+  m_EditorClassIdentifier: 
+  cardText: Cataline is running for the consulship again with part of his platform
+    being the elimination of debts.
+  cardArtEvent: {fileID: 21300000, guid: ae7b6dcbe6055c54eb6eef9d083fa2cd, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CThereupon Catiline promised abolition of debts, the proscription
+    of the rich, offices, priesthoods,  plunder, and all the other spoils that war
+    and the license of citors can offer\u201D (Sallust, War with Catiline XXI.1-2)."
+  primarySourceAuthor: Sallust was a Roman politician and historian from the late
+    Roman Republic. Sallust wrote this quote as part of his first work called War
+    with Catiline.
+  primarySourceContext: According to Sallust, Catiline made these promises to his
+    close supporters when they asked what they would win if they waged civil war.
+    It is very unlikely that Catiline used this type of language when speaking to
+    others not directly involved in his plots.
+  Advice: "This platform of Cataline\u2019s is sure to have many opponents in the
+    Senate and seems like an act of desperation"
+  RightOption: "Support Catiline\u2019s renewed bid for the consulship "
+  cardArtRight: {fileID: 21300000, guid: 2dd17f6bcd08bcb488aa4b2c90259e9f, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 2
+  patricPopularityRight: -4
+  rNextPath: Cards/63_BCE/5___Summer_IE_4R
+  changeSeasonR: 0
+  LeftOption: "Oppose Catiline\u2019s campaign and side with Cicero against him"
+  cardArtLeft: {fileID: 21300000, guid: d872bb2ed468b044bb311afdf7f0249b, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -4
+  patricPopularityLeft: 2
+  lNextPath: Cards/63_BCE/5___Summer_IE_4L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

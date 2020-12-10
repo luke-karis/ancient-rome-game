@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 5_Spring_SenatorPoisonTrial_4R
+  m_EditorClassIdentifier: 
+  cardText: In court the prosecution attempts to show your client is an immoral and
+    unscrupulous man based on his affair with a widow.
+  cardArtEvent: {fileID: 21300000, guid: 3cef280e0327abf4d8b5a6c101472385, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "Cicero says that his client has been portrayed as \u201Can
+    adulterer, a lewd fellow, a dealer in bribes\u201D which Cicero states is \u201Cabuse,
+    not accusation; there is no foundation for these charges\u201D (Cicero, Pro Caelio
+    13)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from Cicero\u2019s defence of
+    Marcus Caelius Rufus."
+  primarySourceContext: 'In the Roman judicial system neither prosecutors or defenders
+    earned a salary. Instead, working law cases was a way for the elite to build a
+    name for themselves and gain renown. '
+  Advice: Logic and reason are the best ways to win court cases
+  RightOption: "Attack the widow\u2019s character by calling her a prostitute since
+    she is having affairs with unmarried men"
+  cardArtRight: {fileID: 21300000, guid: 600f67d8d0e8a234cba24ea0b612a607, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 4
+  rNextPath: Cards/65_BCE/7___Spring_IE_5R
+  changeSeasonR: 0
+  LeftOption: Claim you have been cursed by the prosecution and for that reason cannot
+    speak well in your clients defense.
+  cardArtLeft: {fileID: 21300000, guid: 60bd568ce23c2f94d811188bee2c86f7, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: -10
+  lNextPath: Cards/65_BCE/6___Spring_IE_5L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

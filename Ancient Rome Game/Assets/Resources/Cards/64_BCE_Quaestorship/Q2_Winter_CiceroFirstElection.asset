@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q2_Winter_CiceroFirstElection
+  m_EditorClassIdentifier: 
+  cardText: Marcus Tullius Cicero, another candidate for the consulship, and an opponent
+    of Cataline, comes to ask for your support
+  cardArtEvent: {fileID: 21300000, guid: ff986c355ac864c4aa4943f969b29748, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CFurther, a \u201Cnew man\u201D can be greatly helped
+    by the good will of nobles, and especially of the ex-consuls; it is an advantage
+    that those whose position and company you wish to attain should think you worthy
+    of that position and company\u201D (Quintus Tullius Cicero, Handbook of Electioneering,
+    4-5). "
+  primarySourceAuthor: 'Quintus Tullius Cicero was the brother of Marcus Tullius Cicero
+    and apparently wrote this quote as a part of advice on how Marcus Cicero should
+    seek the consulship. However, some scholars debate whether it was written by Quintus
+    at all due to some inconsistencies in it. '
+  primarySourceContext: "Canvassing and campaigning was extremely important for those
+    seeking high office especially for Cicero since he was a \u201Cnew man', meant
+    that he did not have an ancestor who had held the consulship. "
+  Advice: Cicero is well respected but his family ties are not nearly as prestigious
+    as most who vie for the consulship
+  RightOption: Respond that you will gladly give him your support and denounce Cataline
+  cardArtRight: {fileID: 21300000, guid: 5fbed8cfac7cca0449c1a2cfb45c1340, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: -1
+  patricPopularityRight: 1
+  rNextPath: Cards/64_BCE_Quaestorship/Q3___IE_2R
+  changeSeasonR: 0
+  LeftOption: Say you do not wish to support him politically
+  cardArtLeft: {fileID: 21300000, guid: 19f907ce18887d848b8c5b5876cae9e0, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: -3
+  lNextPath: Cards/64_BCE_Quaestorship/Q3___IE_2L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

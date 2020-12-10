@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 10.2_IE_ConsulInfo
+  m_EditorClassIdentifier: 
+  cardText: The two names at the top of the screen are the two consuls for the current
+    year
+  cardArtEvent: {fileID: 21300000, guid: d825a92e725af944b86429ae0422260b, type: 3}
+  cardArtAdvisor: {fileID: 0}
+  primarySourceEvent: 
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: 
+  cardArtRight: {fileID: 0}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 0
+  rNextPath: Cards/Tutorial/10_IE_ElectionButton
+  changeSeasonR: 0
+  LeftOption: 
+  cardArtLeft: {fileID: 0}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/Tutorial/10_IE_ElectionButton
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 1

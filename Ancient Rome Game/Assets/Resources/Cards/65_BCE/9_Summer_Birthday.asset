@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 9_Summer_Birthday
+  m_EditorClassIdentifier: 
+  cardText: "It\u2019s your birthday! However, you have a very busy day and can only
+    celebrate in one way."
+  cardArtEvent: {fileID: 21300000, guid: 020b32238edd33e40ad566b0604743b0, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201Ctoday is my birthday and you all ought to celebrate it\u201D
+    (Plautus, Pseudolus 165). "
+  primarySourceAuthor: Plautus was a Roman playwright who lived in the Roman Republic
+    and wrote some of the earliest surviving literary works from Ancient Rome.
+  primarySourceContext: "In Plautus\u2019 play, Pseudolus, one character is talking
+    to his slaves when he says this quote."
+  Advice: How you celebrate your birthday is up to you
+  RightOption: Host a small party with close friends and family
+  cardArtRight: {fileID: 21300000, guid: 3f46200d4e166c34eb4162507c4331c5, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 2
+  rNextPath: Cards/65_BCE/10___Summer_IE_9R
+  changeSeasonR: 0
+  LeftOption: Make an offering of cakes and incense to the gods
+  cardArtLeft: {fileID: 21300000, guid: 50c31a96600633b4aa70916e247afff1, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 2
+  patricPopularityLeft: 0
+  lNextPath: Cards/65_BCE/10___Summer_IE_9L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

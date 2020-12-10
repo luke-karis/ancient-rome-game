@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q5_Fall_Extortion
+  m_EditorClassIdentifier: 
+  cardText: The governor is extorting the locals of Africa and getting rich
+  cardArtEvent: {fileID: 21300000, guid: e062f48e2fb855e478c9b2352673842b, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CHe has robbed the Treasury, and plundered Asia and Pamphylia;
+    he has behaved like a pirate in his city praetorship, and like a destroying pestilence
+    in his province of Sicily\u201D (Cicero, In Verrem 1.2-3)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from Cicero\u2019s prosecution
+    of Gaius Verres, the former governor of Sicily. "
+  primarySourceContext: "This case was very important to Cicero\u2019s political career
+    as he was able to so fully and expertly condemn Verres that there was no way the
+    man could counter the charges causing him to go into exile. "
+  Advice: Many governors exploit the native populations of their provinces but this
+    goes beyond the norm
+  RightOption: Write a letter to Rome complaining of the governor's corruption
+  cardArtRight: {fileID: 21300000, guid: 64454c86fbce6164eba9837cebb89dda, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 3
+  rNextPath: Cards/64_BCE_Quaestorship/Q7___Fall_IE_5R
+  changeSeasonR: 0
+  LeftOption: Ask if you can join in on the scheme
+  cardArtLeft: {fileID: 21300000, guid: 19dd2387c0dce3745b3093902335387e, type: 3}
+  moneyBarLeft: 15
+  plebPopularityLeft: 0
+  patricPopularityLeft: -6
+  lNextPath: Cards/64_BCE_Quaestorship/Q6___Fall_IE_5L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

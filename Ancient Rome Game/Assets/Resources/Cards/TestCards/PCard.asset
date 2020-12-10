@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: PCard
+  m_EditorClassIdentifier: 
+  cardText: PCard
+  cardArtEvent: {fileID: 21300000, guid: db18d98a4bb0de54ebc1d0380c265835, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 3f519bbc8bb4237419cfc7d2d1c71c5c, type: 3}
+  primarySourceEvent: Primary Source Event P
+  primarySourceAuthor: 
+  primarySourceContext: 
+  Advice: 
+  RightOption: Right P
+  cardArtRight: {fileID: 21300000, guid: df84a52fd7cb7754e916d8df10a38ea0, type: 3}
+  moneyBarRight: 3
+  plebPopularityRight: 10
+  patricPopularityRight: 10
+  rNextPath: 
+  changeSeasonR: 0
+  LeftOption: Left P
+  cardArtLeft: {fileID: 21300000, guid: 0c4172a7ea052eb43a4ed0a681f860dd, type: 3}
+  moneyBarLeft: 1
+  plebPopularityLeft: 10
+  patricPopularityLeft: 10
+  lNextPath: 
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

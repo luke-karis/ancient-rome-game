@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 5_Fall_TaxGatherers
+  m_EditorClassIdentifier: 
+  cardText: "Some tax gatherers think they won\u2019t be able to make money on their
+    commision and try to sell it back to the senate"
+  cardArtEvent: {fileID: 21300000, guid: ec3b633c3faa84343b779c9d6275ed4f, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "\u201CThe companies which had contracted with the censors for
+    Asia complained that in the heat of the competition they had taken the contract
+    at an excessive price; they demanded that the contract should be annulled\u201D
+    \ (Cicero Att. 1.17.9)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from one of Cicero\u2019s letters
+    to his friend Atticus."
+  primarySourceContext: The Roman government sold the rights to collect taxes in provinces
+    to private tax collectors. In this quote the collectors felt as though they paid
+    too much and wanted their contract cancelled.
+  Advice: "The optimates are likely to favor the Cato\u2019s argument"
+  RightOption: Side with Cato and say this is another form of debt removal
+  cardArtRight: {fileID: 21300000, guid: fb01992dd3c96eb4387c3f2b4304121a, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 2
+  rNextPath: Cards/61_BCE/6___Fall_IE_5R
+  changeSeasonR: 0
+  LeftOption: 'Argue on behalf of the tax gatherers '
+  cardArtLeft: {fileID: 21300000, guid: ca7e5a9ecf9fb6741b8f11145740360d, type: 3}
+  moneyBarLeft: 4
+  plebPopularityLeft: 1
+  patricPopularityLeft: -1
+  lNextPath: Cards/61_BCE/6___Fall_IE_5L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

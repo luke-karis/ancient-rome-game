@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: 4_Spring_SenatorAccusedPoison
+  m_EditorClassIdentifier: 
+  cardText: A well known senator has been accused of attempted murder by poison and
+    asks you to defend him in court.
+  cardArtEvent: {fileID: 21300000, guid: 4f97b479caed17347ae4151a880c72a7, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "Cicero describes the charges as \u201Cone about some gold,
+    one about some poison, in which one and the same character is concerned. It is
+    alleged that the gold was taken from Clodia, the poison procured to be given to
+    Clodia\u201D (Cicero, Pro Caelio 13)."
+  primarySourceAuthor: "Cicero was a Roman statesman, orator, lawyer, and philosopher
+    who lived in the Roman republic. This quote comes from Cicero\u2019s defence of
+    Marcus Caelius Rufus."
+  primarySourceContext: The Roman judicial system did not have state funded prosecutors
+    so private citizens had to bring cases against each other to punish wrongdoing.
+    This process was sometimes used immorally to damage an opponent's reputation.
+  Advice: Winning legal cases is an excellent way to build your reputation
+  RightOption: Accept the offer to represent him
+  cardArtRight: {fileID: 21300000, guid: 5fbed8cfac7cca0449c1a2cfb45c1340, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 0
+  patricPopularityRight: 5
+  rNextPath: Cards/65_BCE/5_Spring_SenatorPoisonTrial_4R
+  changeSeasonR: 0
+  LeftOption: Refuse the offer to represent him
+  cardArtLeft: {fileID: 21300000, guid: 19f907ce18887d848b8c5b5876cae9e0, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: 0
+  patricPopularityLeft: 0
+  lNextPath: Cards/65_BCE/8___Summer_IE_4_6_7_Yes
+  changeSeasonL: 1
+  endOfYear: 0
+  isInformation: 0

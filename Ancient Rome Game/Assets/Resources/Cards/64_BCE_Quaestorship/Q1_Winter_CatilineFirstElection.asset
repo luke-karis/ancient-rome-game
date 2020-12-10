@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d110281a6b6c744abcb073a8ab6b6c1, type: 3}
+  m_Name: Q1_Winter_CatilineFirstElection
+  m_EditorClassIdentifier: 
+  cardText: Catiline, a candidate for the consulship, who has been known to give out
+    bribes, comes and asks for your support
+  cardArtEvent: {fileID: 21300000, guid: fb854fee20480e14c96d06527e78f6b9, type: 3}
+  cardArtAdvisor: {fileID: 21300000, guid: 72999b4653e4c6b4999a2246516e0f89, type: 3}
+  primarySourceEvent: "In the consulship of Lucius Tullus and Manius Lepidus (66 BCE)
+    \u201CCatiline  was charged with extortion and prevented from standing for the
+    consulship, because he had been unable to announce his candidacy within the prescribed
+    number of days\u201D (Sallust, War with Catiline, 18.3)."
+  primarySourceAuthor: Sallust was a Roman politician and historian from the late
+    Roman Republic. Sallust wrote this quote as part of his first work called War
+    with Catiline.
+  primarySourceContext: 'Catiline was brought to trial in 65 BCE but was acquitted
+    in part because he had the support of many leading politicians of the time. '
+  Advice: Catiline has quite an unsavory reputation, I would be cautious supporting
+    him
+  RightOption: Say that you will gladly give him your support
+  cardArtRight: {fileID: 21300000, guid: 5fbed8cfac7cca0449c1a2cfb45c1340, type: 3}
+  moneyBarRight: 0
+  plebPopularityRight: 2
+  patricPopularityRight: -4
+  rNextPath: Cards/64_BCE_Quaestorship/Q2___IE_1R
+  changeSeasonR: 0
+  LeftOption: "Say you don\u2019t approve of his methods and will not support him"
+  cardArtLeft: {fileID: 21300000, guid: 19f907ce18887d848b8c5b5876cae9e0, type: 3}
+  moneyBarLeft: 0
+  plebPopularityLeft: -4
+  patricPopularityLeft: 2
+  lNextPath: Cards/64_BCE_Quaestorship/Q2___IE_1L
+  changeSeasonL: 0
+  endOfYear: 0
+  isInformation: 0

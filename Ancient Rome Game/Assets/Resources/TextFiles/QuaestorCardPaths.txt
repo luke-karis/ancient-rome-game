@@ -1,0 +1,8 @@
+Cards/Q0_IE_1
+Cards/Q1_E_Winter_CatilineFirstElection
+Cards/Q2_E_Winter_CiceroFirstElection
+Cards/Q3_E_Spring_AssignedAfrica
+Cards/Q4_E_Summer_HearCiceroElected
+Cards/Q5_E_Fall_Extortion
+Cards/Q6_IE_5L
+Cards/Q7_IE_5R
